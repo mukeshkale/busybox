@@ -1,3 +1,3 @@
 FROM busybox
 
-RUN apt-get update
+RUN /usr/bin/apt-get
