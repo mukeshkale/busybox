@@ -1,3 +1,5 @@
 FROM busybox
 
-RUN /usr/bin/apt-get
+RUN /bin/sh -c /usr/bin/apt-get update
+
+
